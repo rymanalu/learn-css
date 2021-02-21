@@ -1,8 +1,8 @@
-h2 {
+h2:hover {
   color: red;
 }
 
-.subtitle {
+h2[class=subtitle] {
   color: blue;
 }
 
@@ -35,9 +35,17 @@ textarea ~ button {
 }
 
 ul > li {
-  color: blue;
+  color: green;
 }
 
 /* ul li {
   color: green;
 } */
+
+img[src*="../img/"] {
+  border: 10px solid black;
+}
+
+h2[class|=article-subtitle] {
+  background: green;
+}
