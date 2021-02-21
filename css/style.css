@@ -12,7 +12,7 @@ body {
 
 #service-image {
   height: 400px;
-  width: 70%;
+  width: 70vw;
 
   background: radial-gradient(circle, red 20%, blue 40%, green 55%);
 }
