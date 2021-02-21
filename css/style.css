@@ -1,5 +1,5 @@
 body {
-  background: url('../img/img-1.jpg');
+  background: rgb(204, 229, 255);
 }
 
 #title {
@@ -8,4 +8,12 @@ body {
 
 .subtitle {
   color: rgb(200, 148, 30);
+}
+
+#service-image {
+  height: 400px;
+  width: 70%;
+  background: url('../img/img-2.jpg');
+  background-size: cover;
+  background-color: steelblue;
 }
