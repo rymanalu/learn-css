@@ -29,3 +29,8 @@ body {
 .italics {
   font-style: italic;
 }
+
+#about-us-image {
+  height: 300px;
+  width: 60%;
+}
