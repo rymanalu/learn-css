@@ -1,0 +1,112 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+#dddddd
+#222831
+#30475e
+#f05454
+*/
+
+.content {
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+.sidebar {
+  background: #f05454;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+  transition: 0.5s all;
+}
+
+img:hover {
+  width: 500px;
+  height: 250px;
+}
+
+body {
+  background: #dddddd;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 50px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.subtitle {
+
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-grid > img {
+  margin: 10px;
+}
+
+#image-1 {
+  float: right;
+  margin: 15px;
+  height: 300px;
+}
+
+.post {
+  border: 2px solid #222831;
+  margin: 10px;
+}
+
+.post-title {
+  margin-left: 5px;
+}
+
+.post-text {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.post > a {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s color;
+}
+
+.post > a:hover {
+  color: steelblue;
+}
+
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
