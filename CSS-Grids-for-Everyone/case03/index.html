@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Grid</title>
+
+    <style>
+      body { margin-top: 40px; }
+
+      #container {
+        display: grid;
+        grid-template-columns: 150px 100px auto;
+        grid-template-rows: 100px auto 100px;
+        grid-template-areas:
+          "header header header"
+          "nav aside main"
+          "footer footer footer";
+        grid-gap: 10px;
+      }
+
+      header {
+        grid-area: header;
+        background: red;
+      }
+
+      nav {
+        grid-area: nav;
+        background: brown;
+      }
+
+      main {
+        grid-area: main;
+        background: blue;
+      }
+
+      aside {
+        grid-area: aside;
+        background: black;
+        color: white;
+      }
+
+      footer {
+        grid-area: footer;
+        background: green;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="container">
+      <header>header area</header>
+      <nav>navigation area</nav>
+      <aside>aside area</aside>
+      <main>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a efficitur nisi. Vestibulum pharetra laoreet quam quis aliquam. Praesent a ante purus. Duis egestas erat turpis, non tincidunt massa vulputate ut. Integer orci massa, consequat eget tincidunt eget, convallis sed tortor. Praesent tristique et massa nec aliquam. Donec at massa sed nunc ornare malesuada. In vel lobortis neque, quis laoreet tortor. Nam et augue vitae orci scelerisque tempus.
+        </p>
+      </main>
+      <footer>footer area</footer>
+    </section>
+  </body>
+</html>
