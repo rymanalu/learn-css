@@ -14,6 +14,8 @@ export default function Home() {
     {
       name: "Women's Wool Runner Mizzles",
       description: 'Our weather-ready sneaker made with merino wool and Puddle Guard™.',
+      previewText: 'Cozy sneaker, stormy weather',
+      previewImage: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_632,f_auto,q_auto,c_fill,ar_0.635814889336016/https://images.ctfassets.net/9uo1qvvet3xa/2SJ7oQMIoIBIzdlmOtAGkA/5e5808e1d641be343569a2c17246a110/SpringCore2020_Shot04_SavannaNight_WRM_0687.jpg',
       styles: [
         {
           name: 'Natural Gray (Cream Sole)',
@@ -70,6 +72,254 @@ export default function Home() {
           image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_420,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.shopify.com/s/files/1/1104/4168/products/WR3WNCW_SHOE_ANGLE_GLOBAL_WOMENS_WOOL_RUNNER_GREY_LIGHT_GREY_bca9b775-cdd3-4bf2-afef-97935ea55cf8.png%3Fv=1610049516'
         }
       ]
+    },
+    {
+      name: "Women's Wool Runner-up Mizzles",
+      description: 'Our weather-ready high top made with merino wool and Puddle Guard™.',
+      previewText: 'Cozy sneaker, stormy weather',
+      previewImage: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_632,f_auto,q_auto,c_fill,ar_0.635814889336016/https://images.ctfassets.net/9uo1qvvet3xa/2SJ7oQMIoIBIzdlmOtAGkA/5e5808e1d641be343569a2c17246a110/SpringCore2020_Shot04_SavannaNight_WRM_0687.jpg',
+      styles: [
+        {
+          name: 'Natural Gray (Cream Sole)',
+          price: '$115',
+          colors: ['#585c60', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/25v1MaHqJbmQrViJgtNsH4/1'
+        },
+        {
+          name: 'Savanna Night (Cream Sole)',
+          price: '$115',
+          colors: ['#353946', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/25v1MaHqJbmQrViJgtNsH4/1'
+        },
+        {
+          name: 'Black Sands (Asphalt Sole)',
+          price: '$115',
+          colors: ['#28282c', '#434345'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/25v1MaHqJbmQrViJgtNsH4/1'
+        },
+        {
+          name: 'Cardamom (Cream Sole)',
+          price: '$115',
+          colors: ['#9d957a', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/25v1MaHqJbmQrViJgtNsH4/1'
+        },
+        {
+          name: 'Ginseng (Beige Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/25v1MaHqJbmQrViJgtNsH4/1'
+        },
+        {
+          name: 'Dapple Gray (Beige Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/25v1MaHqJbmQrViJgtNsH4/1'
+        },
+        {
+          name: 'Aurora (Cream)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/25v1MaHqJbmQrViJgtNsH4/1'
+        },
+        {
+          name: 'Pacific (Cream Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/25v1MaHqJbmQrViJgtNsH4/1'
+        },
+        {
+          name: 'True Black (Black Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/25v1MaHqJbmQrViJgtNsH4/1'
+        }
+      ]
+    },
+    {
+      name: "Women's Tree Dashers",
+      description: 'Our running shoe designed with breathable Tree material.',
+      previewText: 'Cozy sneaker, stormy weather',
+      previewImage: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_632,f_auto,q_auto,c_fill,ar_0.635814889336016/https://images.ctfassets.net/9uo1qvvet3xa/2SJ7oQMIoIBIzdlmOtAGkA/5e5808e1d641be343569a2c17246a110/SpringCore2020_Shot04_SavannaNight_WRM_0687.jpg',
+      styles: [
+        {
+          name: 'Natural Gray (Cream Sole)',
+          price: '$115',
+          colors: ['#585c60', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5j8qUlAiAUaUGHhhAwNUEH/1'
+        },
+        {
+          name: 'Savanna Night (Cream Sole)',
+          price: '$115',
+          colors: ['#353946', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5j8qUlAiAUaUGHhhAwNUEH/1'
+        },
+        {
+          name: 'Black Sands (Asphalt Sole)',
+          price: '$115',
+          colors: ['#28282c', '#434345'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5j8qUlAiAUaUGHhhAwNUEH/1'
+        },
+        {
+          name: 'Cardamom (Cream Sole)',
+          price: '$115',
+          colors: ['#9d957a', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5j8qUlAiAUaUGHhhAwNUEH/1'
+        },
+        {
+          name: 'Ginseng (Beige Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5j8qUlAiAUaUGHhhAwNUEH/1'
+        },
+        {
+          name: 'Dapple Gray (Beige Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5j8qUlAiAUaUGHhhAwNUEH/1'
+        },
+        {
+          name: 'Aurora (Cream)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5j8qUlAiAUaUGHhhAwNUEH/1'
+        },
+        {
+          name: 'Pacific (Cream Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5j8qUlAiAUaUGHhhAwNUEH/1'
+        },
+        {
+          name: 'True Black (Black Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5j8qUlAiAUaUGHhhAwNUEH/1'
+        }
+      ]
+    },
+    {
+      name: "Women's Wool Dasher Mizzles",
+      description: 'Our weather-ready running shoe made with ZQ merino wool and Puddle Guard®.',
+      previewText: 'Cozy sneaker, stormy weather',
+      previewImage: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_632,f_auto,q_auto,c_fill,ar_0.635814889336016/https://images.ctfassets.net/9uo1qvvet3xa/2SJ7oQMIoIBIzdlmOtAGkA/5e5808e1d641be343569a2c17246a110/SpringCore2020_Shot04_SavannaNight_WRM_0687.jpg',
+      styles: [
+        {
+          name: 'Natural Gray (Cream Sole)',
+          price: '$115',
+          colors: ['#585c60', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/4mEljFZAAHsPoiq89ZvhOz/3'
+        },
+        {
+          name: 'Savanna Night (Cream Sole)',
+          price: '$115',
+          colors: ['#353946', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/4mEljFZAAHsPoiq89ZvhOz/3'
+        },
+        {
+          name: 'Black Sands (Asphalt Sole)',
+          price: '$115',
+          colors: ['#28282c', '#434345'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/4mEljFZAAHsPoiq89ZvhOz/3'
+        },
+        {
+          name: 'Cardamom (Cream Sole)',
+          price: '$115',
+          colors: ['#9d957a', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/4mEljFZAAHsPoiq89ZvhOz/3'
+        },
+        {
+          name: 'Ginseng (Beige Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/4mEljFZAAHsPoiq89ZvhOz/3'
+        },
+        {
+          name: 'Dapple Gray (Beige Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/4mEljFZAAHsPoiq89ZvhOz/3'
+        },
+        {
+          name: 'Aurora (Cream)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/4mEljFZAAHsPoiq89ZvhOz/3'
+        },
+        {
+          name: 'Pacific (Cream Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/4mEljFZAAHsPoiq89ZvhOz/3'
+        },
+        {
+          name: 'True Black (Black Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/4mEljFZAAHsPoiq89ZvhOz/3'
+        }
+      ]
+    },
+    {
+      name: "Women's Wool Runners",
+      description: 'Our original everyday sneaker made with cozy merino wool.',
+      previewText: 'Cozy sneaker, stormy weather',
+      previewImage: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_632,f_auto,q_auto,c_fill,ar_0.635814889336016/https://images.ctfassets.net/9uo1qvvet3xa/2SJ7oQMIoIBIzdlmOtAGkA/5e5808e1d641be343569a2c17246a110/SpringCore2020_Shot04_SavannaNight_WRM_0687.jpg',
+      styles: [
+        {
+          name: 'Natural Gray (Cream Sole)',
+          price: '$115',
+          colors: ['#585c60', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5PIOvGho6fumKEdjq2M914/1'
+        },
+        {
+          name: 'Savanna Night (Cream Sole)',
+          price: '$115',
+          colors: ['#353946', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5PIOvGho6fumKEdjq2M914/1'
+        },
+        {
+          name: 'Black Sands (Asphalt Sole)',
+          price: '$115',
+          colors: ['#28282c', '#434345'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5PIOvGho6fumKEdjq2M914/1'
+        },
+        {
+          name: 'Cardamom (Cream Sole)',
+          price: '$115',
+          colors: ['#9d957a', '#e2e2da'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5PIOvGho6fumKEdjq2M914/1'
+        },
+        {
+          name: 'Ginseng (Beige Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5PIOvGho6fumKEdjq2M914/1'
+        },
+        {
+          name: 'Dapple Gray (Beige Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5PIOvGho6fumKEdjq2M914/1'
+        },
+        {
+          name: 'Aurora (Cream)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5PIOvGho6fumKEdjq2M914/1'
+        },
+        {
+          name: 'Pacific (Cream Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5PIOvGho6fumKEdjq2M914/1'
+        },
+        {
+          name: 'True Black (Black Sole)',
+          price: '$115',
+          colors: ['#e7e5e2', '#bfbab5'],
+          image: 'https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_530,f_auto,q_auto,b_rgb:f5f5f5/https://cdn.allbirds.com/image/upload/f_auto,q_auto/v1/production/colorway/en-US/images/5PIOvGho6fumKEdjq2M914/1'
+        }
+      ]
     }
   ]
 
@@ -78,9 +328,9 @@ export default function Home() {
       <Head>
         <title>Rebuilding Allbirds</title>
       </Head>
-      <div className="px-4 py-1 bg-lime-800 text-white">
-        <p className="text-xs font-medium text-center">
-          We're raising prices on all products by $1 today in support of the planet.{` `}<a href="#" className="underline">Learn More</a>.
+      <div className="px-4 py-3 bg-gray-500 text-white">
+        <p className="text-xs font-semibold text-center">
+          Gift with confidence. Returns are extended till January 15th.
         </p>
       </div>
       <header className="z-10 sticky top-0 px-5 py-3 flex items-center justify-between bg-white">
@@ -105,13 +355,13 @@ export default function Home() {
       </header>
       <main>
         <div>
-          <div className="flex items-center justify-between px-8 pt-4 pb-3">
+          <div className="flex items-center justify-between px-8 pt-4 pb-3 md:px-12">
             <div>
-              <div className="text-xs font-medium text-gray-900 space-x-1">
+              <div className="text-xs font-semibold text-gray-900 space-x-1">
                 <a href="#" className="underline">Home</a>
                 <span>/</span>
               </div>
-              <div className="text-lg font-bold text-gray-900">
+              <div className="text-lg font-bold text-gray-900 md:text-xl">
                 Women's Shoes
               </div>
             </div>
@@ -123,74 +373,78 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="bg-gray-100 py-3 overflow-x-auto scrollbars-hidden">
-            <div className="px-8 text-sm inline-flex space-x-5">
+          <div className="bg-gray-100 py-2 overflow-x-auto scrollbars-hidden">
+            <div className="px-8 text-sm inline-flex space-x-5 md:px-12">
               {categories.map((category, i) => (
-                <a key={i} href="#" className="text-gray-800 whitespace-nowrap">
+                <a key={i} href="#" className="font-medium text-gray-800 whitespace-nowrap">
                   {category}
                 </a>
               ))}
             </div>
           </div>
         </div>
-        <div className="py-8">
-          <div className="flex items-center space-x-4 bg-green-700 bg-opacity-20 px-8 py-3">
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-14 w-14 transform rotate-12 -ml-2">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={0.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <div>
-              <div className="flex space-x-2">
-                <h2 className="text-sm font-medium text-gray-900">Pay It To The Planet</h2>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-5 w-5">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <p className="mt-1 text-sm font-light text-gray-900 text-opacity-90">
-                Every Black Friday purchase supports Friday For Future
-              </p>
-            </div>
-          </div>
-          <div className="py-12 px-8">
+        <div>
+          <div className="py-6 px-8 space-y-14 md:px-12">
             {products.map((product, i) => (
               <div key={i}>
                 <div>
-                  <h2 className="text-lg font-semibold">{product.name}</h2>
-                  <p className="text-sm text-gray-800">{product.description}</p>
-                </div>
-                <div className="mt-4 shadow-xl">
-                  <div className="shadow-lg">
-                    <a href="#">
-                      <div>
-                        <img src={product.styles[0].image} />
-                      </div>
-                      <div className="px-4 pt-3">
-                        <h3 className="text-sm font-semibold">{product.name}</h3>
-                        <p className="mt-1 text-sm text-gray-800">{product.styles[0].name}</p>
-                      </div>
-                    </a>
-                    <div className="mt-1 px-4 pb-4">
-                      <p className="text-sm text-gray-800">{product.styles[0].price}</p>
-                      <div className="mt-4 flex space-x-4">
-                        {product.styles.slice(0, 6).map((style, j) => (
-                          <button key={j} className={`h-6 w-6 flex flex-col border border-gray-300 rounded-full overflow-hidden transform -rotate-45 ${j === 0 ? 'ring-2 ring-offset-1 ring-gray-300' : ''}`}>
-                            <span className="sr-only">{style.name}</span>
-                            <span className="h-3 w-6" style={{ backgroundColor: style.colors[0] }}></span>
-                            <span className="h-3 w-6" style={{ backgroundColor: style.colors[1] }}></span>
+                  <div>
+                    <h2 className="text-lg font-bold md:text-xl">{product.name}</h2>
+                    <p className="text-sm font-medium text-gray-800">{product.description}</p>
+                  </div>
+                  <div className="mt-4 md:grid md:grid-cols-2 md:gap-6 md:items-start">
+                    <div className="shadow-xl">
+                      <div className="shadow-lg">
+                        <a href="#">
+                          <div>
+                            <img className="w-full" src={product.styles[0].image} />
+                          </div>
+                          <div className="px-4 pt-3">
+                            <h3 className="text-sm font-semibold">{product.name}</h3>
+                            <p className="mt-1 text-sm font-medium text-gray-800">{product.styles[0].name}</p>
+                          </div>
+                        </a>
+                        <div className="mt-1 px-4 pb-4">
+                          <p className="text-sm font-medium text-gray-800">{product.styles[0].price}</p>
+                          <div className="mt-4 flex items-center space-x-6">
+                            {product.styles.slice(0, 5).map((style, j) => (
+                              <button key={j} className={`h-6 w-6 flex flex-col border border-gray-300 rounded-full overflow-hidden focus:ring-2 focus:ring-offset-1 focus:ring-gray-900 focus:outline-none ${j === 0 ? 'ring-2 ring-offset-1 ring-gray-300' : ''}`}>
+                                <span className="sr-only">{style.name}</span>
+                                <span className="h-full w-full flex flex-col transform -rotate-45">
+                                  <span className="h-3 w-6" style={{ backgroundColor: style.colors[0] }}></span>
+                                  <span className="h-3 w-6" style={{ backgroundColor: style.colors[1] }}></span>
+                                </span>
+                              </button>
+                            ))}
+                            <button type="button" className="h-7 w-7 border rounded-full flex items-center justify-center hover:border-gray-400">
+                              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                        <div className="border-t">
+                          <button className="px-4 py-2 text-sm w-full flex justify-between">
+                            <span className="font-semibold">Quick Add</span>
+                            <span>
+                              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                              </svg>
+                            </span>
                           </button>
-                        ))}
+                        </div>
                       </div>
                     </div>
-                    <div className="border-t">
-                      <button className="px-4 py-2 text-sm w-full flex justify-between">
-                        <span className="font-semibold">Quick Add</span>
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                          </svg>
-                        </span>
-                      </button>
+                    <div className="hidden md:block">
+                      <div className="relative">
+                        <img className="w-full" src={product.previewImage} />
+                        <div className="absolute inset-0">
+                          <div className="absolute inset-0 top-1/2 bg-gradient-to-t from-gray-900 opacity-95"></div>
+                          <div className="absolute inset-x-0 bottom-0">
+                            <p>{product.previewText}</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -199,6 +453,24 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <footer className="bg-gray-800 py-12">
+        <div className="px-6">
+          <form action="#" method="POST">
+            <div>
+              <label htmlFor="email_address" className="block text-white text-sm font-medium">
+                Enter your email to stay in touch!
+              </label>
+              <div className="mt-1.5 relative">
+                <input type="text" className="block w-full text-white bg-gray-600 border-2 border-transparent focus:border-white focus:ring-0 transition" />
+                <div className="absolute inset-0 border-b-2 border-white pointer-events-none" aria-hidden></div>
+              </div>
+            </div>
+            <div className="mt-6">
+              <button type="submit" className="block w-full px-4 py-3 rounded bg-gray-600 text-white font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900 focus:outline-none">Sign up</button>
+            </div>
+          </form>
+        </div>
+      </footer>
     </div>
   )
 }
