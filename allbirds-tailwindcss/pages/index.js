@@ -406,21 +406,31 @@ export default function Home() {
                         </a>
                         <div className="mt-1 px-4 pb-4">
                           <p className="text-sm font-medium text-gray-800">{product.styles[0].price}</p>
-                          <div className="mt-4 flex items-center space-x-6">
+                          <div className="mt-4 flex items-center space-x-6 md:space-x-2">
                             {product.styles.slice(0, 5).map((style, j) => (
-                              <button key={j} className={`h-6 w-6 flex flex-col border border-gray-300 rounded-full overflow-hidden focus:ring-2 focus:ring-offset-1 focus:ring-gray-900 focus:outline-none ${j === 0 ? 'ring-2 ring-offset-1 ring-gray-300' : ''}`}>
-                                <span className="sr-only">{style.name}</span>
-                                <span className="h-full w-full flex flex-col transform -rotate-45">
-                                  <span className="h-3 w-6" style={{ backgroundColor: style.colors[0] }}></span>
-                                  <span className="h-3 w-6" style={{ backgroundColor: style.colors[1] }}></span>
+                              <span key={j} className="md:flex-1 md:min-w-0 md:flex">
+                                <button className={`h-6 w-6 flex flex-col border border-gray-300 rounded-full overflow-hidden focus:ring-2 focus:ring-offset-1 focus:ring-gray-900 focus:outline-none ${j === 0 ? 'ring-2 ring-offset-1 ring-gray-300' : ''} md:rounded-none md:w-full md:aspect-w-1 md:aspect-h-1 md:border-0 ${j === 0 ? 'md:ring-0' : ''}`}>
+                                  <span className="sr-only">{style.name}</span>
+                                  <span className="h-full w-full flex flex-col transform -rotate-45 md:hidden">
+                                    <span className="h-3 w-6" style={{ backgroundColor: style.colors[0] }}></span>
+                                    <span className="h-3 w-6" style={{ backgroundColor: style.colors[1] }}></span>
+                                  </span>
+                                  <span className="hidden md:h-full md:w-full md:flex">
+                                    <img src={style.image} />
+                                    <span className={`absolute inset-0 ${j === 0 ? 'md:ring-1 md:ring-inset md:ring-offset-0 md:ring-gray-300' : ''}`}></span>
+                                  </span>
+                                </button>
+                              </span>
+                            ))}
+                            <span className="md:flex-1 md:min-w-0 md:flex">
+                              <button type="button" className="h-7 w-7 border rounded-full flex items-center justify-center text-gray-600 hover:border-gray-400 md:aspect-w-1 md:aspect-h-1 md:w-full md:rounded-none">
+                                <span className="flex items-center justify-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-7 md:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                  </svg>
                                 </span>
                               </button>
-                            ))}
-                            <button type="button" className="h-7 w-7 border rounded-full flex items-center justify-center hover:border-gray-400">
-                              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                              </svg>
-                            </button>
+                            </span>
                           </div>
                         </div>
                         <div className="border-t">
@@ -441,7 +451,7 @@ export default function Home() {
                         <div className="absolute inset-0">
                           <div className="absolute inset-0 top-1/2 bg-gradient-to-t from-gray-900 opacity-95"></div>
                           <div className="absolute inset-x-0 bottom-0">
-                            <p>{product.previewText}</p>
+                            <p className="px-6 pb-6 font-bold text-lg text-white capitalize">{product.previewText}</p>
                           </div>
                         </div>
                       </div>
